@@ -6,10 +6,9 @@ The following is a set of guidelines for contributing to the project on GitHub.
 These are mostly guidelines, not rules.
 Use your best judgement and feel free to propose changes to this document in a Pull Request.
 
-**Table of Contents**
+**Table of Contents:**
 
 - [:purple_heart: Code of Conduct](#purple_heart-code-of-conduct)
-- [:question: What should I know before I get started?](#question-what-should-i-know-before-i-get-started)
 - [:gift: How can I contribute?](#gift-how-can-i-contribute)
   - [:bug: Reporting Bugs](#bug-reporting-bugs)
   - [:sparkles: Requesting Features](#sparkles-requesting-features)
@@ -27,10 +26,6 @@ Use your best judgement and feel free to propose changes to this document in a P
 
 This project and everyone participating in it is expected to abide by and uphold the [Code of Conduct](CODE_OF_CONDUCT.md).
 Please report any unacceptable behaviour to [Dr Sarah Gibson](mailto:drsarahlgibson@gmail.com).
-
-## :question: What should I know before I get started?
-
-> TBA: This section should be updated with information relevant to the project.
 
 ## :gift: How can I contribute?
 
@@ -106,7 +101,7 @@ This makes reviews much easier to read!
 
 Issues and Pull Requests can have labels assigned to them which indicate at a glance what aspects of the project they describe.
 It is also possible to [sort issues by label](https://help.github.com/en/github/managing-your-work-on-github/filtering-issues-and-pull-requests-by-labels) making it easier to track down specific issues.
-Below is a table with the currently used labels in the repo.
+Below is a table with the currently used labels in the repository.
 
 | Label | Description |
 | :--- | :--- |
