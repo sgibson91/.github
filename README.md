@@ -1,2 +1,3 @@
 # .github
-Community files for all HelmUpgradeBot's repositories
+
+Community files for all of Sarah's repositories
