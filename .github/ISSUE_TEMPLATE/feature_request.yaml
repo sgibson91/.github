@@ -1,5 +1,5 @@
 name: "\U0001F680 Feature request"
-about: Suggest an new feature or a big change
+description: Suggest an new feature or a big change
 labels: [enhancement]
 body:
   - type: markdown
