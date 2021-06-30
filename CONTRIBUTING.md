@@ -35,7 +35,7 @@ If something doesn't work the way you expect it to, please check it hasn't alrea
 Bug reports should have the "bug" label, or have a title beginning with `[BUG]`.
 
 If you can't find an issue already reporting your bug, then please feel free to open a new issue.
-This repository has a [bug report template](.github/ISSUE_TEMPLATE/bug_report.md) to help you be as descriptive as possible so we can squash that bug! :muscle:
+This repository has a [bug report template](.github/ISSUE_TEMPLATE/bug_report.yaml) to help you be as descriptive as possible so we can squash that bug! :muscle:
 
 ### :sparkles: Requesting Features
 
@@ -47,7 +47,7 @@ If you find an open issue describing the feature you wish for, you can "+1" the 
 You may also leave any thoughts or offers for support as new comments on the issue.
 
 If you don't find an issue describing your feature, please open a feature request.
-This repository has a [feature request template](.github/ISSUE_TEMPLATE/feature_request.md) to help you map out the feature you'd like.
+This repository has a [feature request template](.github/ISSUE_TEMPLATE/feature_request.yaml) to help you map out the feature you'd like.
 
 ### :hatching_chick: Your First Contribution
 
