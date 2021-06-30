@@ -8,7 +8,6 @@ body:
         ## Thank you for opening a feature request!
         
         This template is designed to provide as much information about the feature as possible so we can go about developing it!
-      render: markdown
   - type: textarea
     id: use-case
     attributes:
