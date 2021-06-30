@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- Thank you for opening a bug report!
 
-This template is designed to provide as much information about the bug as possible so we can go about squashing the bug as quickly as possible!
+This template is designed to provide as much information about the bug as possible so we can go about squashing that bug!
 
 Don't worry, these HTML comments won't render in your issue.
 Feel free to delete them once you've read them :) -->

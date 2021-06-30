@@ -15,7 +15,7 @@ fix #<!-- Enter relevant issue number here -->
 <!-- You can use this section to go into more detail about what's changed.
 We recommend using bullet points. -->
 
-- <!-- Enter details of changed filename here -->
+- <!-- Enter details of changed filename or function, and so on, here -->
 -
 
 ### What should a reviewer concetrate their feedback on?
