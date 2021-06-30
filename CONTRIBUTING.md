@@ -4,7 +4,7 @@
 
 The following is a set of guidelines for contributing to the project on GitHub.
 These are mostly guidelines, not rules.
-Use your best judgement and feel free to propose changes to this document in a Pull Request.
+Use your best judgment and feel free to propose changes to this document in a Pull Request.
 
 **Table of Contents:**
 
@@ -32,7 +32,7 @@ Please report any unacceptable behaviour to [Dr Sarah Gibson](mailto:drsarahlgib
 ### :bug: Reporting Bugs
 
 If something doesn't work the way you expect it to, please check it hasn't already been reported in the repository's issue tracker.
-Bug reports should have the bug label, or have a title beginning with `[BUG]`.
+Bug reports should have the "bug" label, or have a title beginning with `[BUG]`.
 
 If you can't find an issue already reporting your bug, then please feel free to open a new issue.
 This repository has a [bug report template](.github/ISSUE_TEMPLATE/bug_report.md) to help you be as descriptive as possible so we can squash that bug! :muscle:
@@ -40,7 +40,7 @@ This repository has a [bug report template](.github/ISSUE_TEMPLATE/bug_report.md
 ### :sparkles: Requesting Features
 
 If there was something extra you'd like to see added, please check that the feature hasn't already been requested in the project's issue tracker.
-Feature requests should have the enhancement label.
+Feature requests should have the "enhancement" label.
 Please also check the closed issues to make sure the feature has not already been requested but the project maintainers decided against developing it.
 
 If you find an open issue describing the feature you wish for, you can "+1" the issue by giving a thumbs up reaction on the **top comment of the issue**.
@@ -52,18 +52,18 @@ This repository has a [feature request template](.github/ISSUE_TEMPLATE/feature_
 ### :hatching_chick: Your First Contribution
 
 Unsure where to start contributing?
-Check out the good first issue and help wanted labels to see where the project is looking for input.
+Check out the "good first issue" and "help wanted" labels to see where the project is looking for input.
 
 ### :arrow_right: Pull Requests
 
-A Pull Request is a means for [people to collaboratively review and work on changes](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) before they are introduced into the base branch of the code base.
+A Pull Request is a means for [people to collaboratively review and work on changes](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) before they are introduced into the default branch of the code base.
 
 To prepare your contribution for review, please follow these steps:
 
-1. [Fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+1. [Fork the repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 2. [Create a new branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository) on your fork
    1. Where possible and appropriate, please use the following convention when naming your branch: `<type>/<issue-number>/<short-description>`.
-      For example, if your contribution is fixing a a typo that was flagged in issue number 11, your branch name would be as follows: `fix/11/typo`.
+      For example, if your contribution is fixing a typo that was flagged in issue number 11, your branch name would be as follows: `fix/11/typo`.
 3. Edit files or add new ones!
 4. [Open your Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
    1. This repository has a [pull request template](.github/PULL_REQUEST_TEMPLATE.md) which will help you summarise your contribution and help reviewers know where to focus their feedback.
@@ -79,8 +79,8 @@ Once you and the maintainers are happy, your contribution will be merged!
 
 ### :snake: Python Styleguide
 
-When writing Python scripts for this repository, it is recommended that contributors use [black](https://github.com/psf/black) and [flake8](https://flake8.pycqa.org/en/latest/) for formatting and linting styles.
-The repository has GitHub Actions to check files are conforming to this styleguide, though not doing so will not prevent your contribution from being merged.
+When writing Python scripts for this repository, it is recommended that contributors use [black](https://github.com/psf/black) and [flake8](https://flake8.pycqa.org/) for formatting and linting styles.
+The repository may have GitHub Actions to check files are conforming to this styleguide, though not doing so will not prevent your contribution from being merged.
 These tools are used as the maintainers believe this makes the code easier to read and keeps consistent formatting as more people contribute to the project.
 
 While flake8 commands can be [disabled](https://flake8.pycqa.org/en/latest/user/violations.html), we only recommend doing this for [specific lines](https://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors) in such cases where reformatting would produce "ugly code".
@@ -91,9 +91,13 @@ The maintainers retain final say on what is "ugly code" on a case-by-case basis.
 Documentation files are written in [Markdown](https://guides.github.com/features/mastering-markdown/).
 
 When writing Markdown, it is recommended to start a new sentence on a new line and define a new paragraph by leaving a single blank line.
-(Check out the raw version of this file for an example!)
+(Check out the [raw version](https://raw.githubusercontent.com/sgibson91/.github/main/CONTRIBUTING.md) of this file for an example!)
 While the sentences will render as a single paragraph; when suggestions are made on Pull Requests, the GitHub User Interface will only highlight the affected sentence - not the whole paragraph.
 This makes reviews much easier to read!
+
+| ![line break after every sentence comic](https://imgs.xkcd.com/comics/third_way_2x.png) |
+| :---: |
+| Comic by xkcd: https://xkcd.com/1285/ |
 
 ## :notebook: Additional Notes
 
