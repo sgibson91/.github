@@ -1,0 +1,16 @@
+name: Clean Jupyter Notebook Outputs
+
+on: [workflow_call]
+
+jobs:
+  clean-notebook-outputs:
+    runs-on: ubuntu-latest
+      clean-notebooks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2.3.5
+ 
+      - name: Check notebook outputs and metadata
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
