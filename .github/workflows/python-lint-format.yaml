@@ -30,6 +30,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install ${{ matrix.tool }}
 
+      - name: Install ${{ matrix.tool }} Jupyter Extension
+        if: ${{ matrix.tool == 'black' }}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install ${{ matrix.tool }}[jupyter]
+
       - name: Run ${{ matrix.tool }}
         run: |
           ${{ matrix.tool }} ${{ matrix.args }} .
