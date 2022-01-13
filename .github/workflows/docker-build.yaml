@@ -15,7 +15,7 @@ on:
 jobs:
   docker-build-push:
     runs-on: ubuntu-latest
-
+    steps:
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v3.6.2
