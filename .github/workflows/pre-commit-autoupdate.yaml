@@ -19,8 +19,11 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
       
-      - name: Update pre-commit dependencies
-        uses: browniebroke/pre-commit-autoupdate-action@main
+      - name: Install pre-commit
+        run: python -m pip install pre-commit
+        
+      - name: Run pre-commit autoupgrade
+        run: pre-commit autoupgrade
       
       - name: Create a Pull Request
         uses: peter-evans/create-pull-request@v3
