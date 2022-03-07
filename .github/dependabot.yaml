@@ -5,23 +5,38 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Europe/London"
 #   # Maintain dependencies for git submodules
 #   - package-ecosystem: "gitsubmodule"
 #     directory: "/"
 #     schedule:
 #       interval: "weekly"
+#       day: "monday"
+#       time: "00:00"
+#       timezone: "Europe/London"
 #   # Maintain dependencies for pip
 #   - package-ecosystem: "pip"
 #     directory: "/"
 #     schedule:
 #       interval: "weekly"
+#       day: "monday"
+#       time: "00:00"
+#       timezone: "Europe/London"
 #   # Maintain dependencies for terraform
 #   - package-ecosystem: "terraform"
 #     directory: "/"
 #     schedule:
 #       interval: "weekly"
+#       day: "monday"
+#       time: "00:00"
+#       timezone: "Europe/London"
 #   # Maintain dependencies for docker
 #   - package-ecosystem: "docker"
 #     directory: "/"
 #     schedule:
-#       interval: "weekly"  
+#       interval: "weekly"
+#       day: "monday"
+#       time: "00:00"
+#       timezone: "Europe/London"
