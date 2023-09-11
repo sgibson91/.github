@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
  
       - name: Check notebook outputs and metadata
         uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
